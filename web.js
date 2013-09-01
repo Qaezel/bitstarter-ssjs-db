@@ -20,7 +20,7 @@ app.get('/', function(request, response) {
       orders_json.push({id: order.coinbase_id, amount: order.amount, time: order.time});
     });
     // Uses views/orders.ejs
-    response.render("index.ejs", {orders: orders_json});
+    response.render("index", {orders: orders_json});
   }).error(function(err) {
     console.log(err);
     response.send("error retrieving orders");
