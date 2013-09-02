@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>EmptyChairNever</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -110,6 +110,11 @@
       .footer a {
         color: #ccccff;
       }
+      /*from https://class.coursera.org/startup-001/forum/thread?thread_id=5932 Csaba Szabo*/
+      .order {
+        margin: 0 auto;
+        width: 228px;
+      }
 
      /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
      div.addthis_toolbox {
@@ -146,12 +151,12 @@
           </button>
           <a class="brand" href="#">Bitstarter</a>
           <div class="nav-collapse collapse">
-            <ul class="nav">
+          <!--  <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="/orders">Orders</a></li>
               <li><a href="#contact">Contact</a></li>
-            </ul>
+            </ul> -->
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -166,14 +171,14 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product: Development Version</h1>
+          <h1>EmptyChairNever</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">One sentence description.</p>
+          <p class="lead">Helping learners learn and teachers make money</p>
         </div>
       </div>
       <div class="row-fluid pitch">
@@ -222,8 +227,9 @@
           </div>
           </div>
           <div class="row-fluid">
-          <div class="span6 offset3 order">
-	    <a class="coinbase-button" data-button-style="custom_large" data-button-text="Preorder with Bitcoin" data-code="77050eabf655839a9ab7cc0849e2435a" href="https://coinbase.com/checkouts/77050eabf655839a9ab7cc0849e2435a">Preorder with Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+          <div class="order">
+	    <a class="coinbase-button" data-button-style="custom_large" 
+	       data-button-text="Help with Bitcoin" data-code="77050eabf655839a9ab7cc0849e2435a" href="https://coinbase.com/checkouts/77050eabf655839a9ab7cc0849e2435a">Preorder with Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
 	  </div>
           </div>
           <div class="row-fluid">
@@ -256,39 +262,19 @@
         </div>
         <div class="span5 copy">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
-          </p>
+	    As a private English tutor in Japan, every week I deal with rescheduled or canceled lessons. Rescheduling often involves a lot of messaging and miscommunications, and cancelations leave me with an empty wallet. Around half of all lessons end up canceled for the week. Many tutors eventually give up teaching private lessons since they're inconvenient and there are easier ways to make a steady income.
+         </p>
         </div>
       </div>
 
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+	    That's why I am making EmptyChairNever, a web app that not only lets teachers and students easily reschedule and cancel their lessons but lets other teachers and students take the spot of the cancelation. If a learner cancels, then another learner can take their place. If the teacher cancels, then another teacher can request to teach instead. It's my hope that this app will lead to more learning for busy students and more money for the hungry tutors.
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/98768620/8006361987_dc68877f5c.jpg">
+          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/98768620/8006361987_dc68877f5c.jpg"><!-- http://www.flickr.com/photos/79133248@N06/, photo by Denise Oz -->
         </div>
       </div>
 
@@ -303,12 +289,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                     Why should I help with Bitcoin?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                    Those who help will get to use the beta version of the app and have first access to all new students. Students can request you as their primary teacher, giving you first rights to their schedule requests.
                   </div>
                 </div>
               </div>
@@ -316,12 +302,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
+                    How does it work?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+                    Teachers and students signup with EmptyChairNever and broadcast their available times and locations. EmptyChairNever makes the match and schedules the meeting. Lessons can be rescheduled or canceled easily with the app. When a lesson has an empty chair, then others can request to fill it.
                   </div>
                 </div>
               </div>
